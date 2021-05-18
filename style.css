@@ -11,6 +11,7 @@ body {
   height: 100vh;
   width: 100%;
   background: linear-gradient(to bottom, #68EACC 0%, #497BE8 100%);
+  /* overflow: hidden; */
 }
 
 .wrapper {
@@ -174,4 +175,24 @@ body {
 .footer button.active {
   opacity: 1;
   pointer-events: auto;
+}
+
+p {
+  text-align: center;
+  font-size: 22px;
+  color: #fff;
+  position: absolute;
+  bottom: 100px;
+  left: 50%;
+  transform: translateX(-50%);
+  text-shadow: 0 1px 1px rgba(0,0,0,0.11), 
+  0 2px 2px rgba(0,0,0,0.11), 
+  0 4px 4px rgba(0,0,0,0.11), 
+  0 6px 8px rgba(0,0,0,0.11),
+  0 8px 16px rgba(0,0,0,0.11);
+}
+
+p i {
+  color: red;
+  font-size: 25px;
 }
